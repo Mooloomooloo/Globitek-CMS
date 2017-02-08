@@ -113,6 +113,11 @@
         $email = h( $email );
         $username = h( $username );
         
+        $first_name = db_escape( $db, $first_name );
+        $last_name = db_escape( $db, $last_name );
+        $email = db_escape( $db, $email );
+        $username = db_escape( $db, $username );
+        
         $query = "INSERT INTO users ( first_name, last_name, email, username, created_at )
         VALUES ( '".$first_name."', '".$last_name."', '".$email."', '".$username."', '".$date."' )";
         
