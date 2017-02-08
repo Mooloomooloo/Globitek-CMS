@@ -1,0 +1,9 @@
+2.5.2017 (7hrs 15min)
+- Completed objectives 1-5
+
+2.6.2017 (3hr)
+- Completed objective 6 (got stuck here for a while)
+
+2.7.2017 (5 hr)
+- Objective 7: Where is the php.ini file for output buffering?
+- Objective 8: Confusion on what sanitizing output for HTML
